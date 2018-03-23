@@ -1,5 +1,5 @@
 html,body{
-	font-family: arial,sans-sirif;
+	font-family: Arial,sans-serif;
 	margin: 0px;
 	background: lightgrey; /* For browsers that do not support gradients */    
     background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
@@ -17,6 +17,7 @@ html,body{
 
 #header img{
 	width:100%;
+	height: 300px;
 	box-sizing: border-box;
 	box-shadow: 7px 7px 3px;
 
@@ -32,6 +33,7 @@ html,body{
 
 #content{
 	margin:90px 15px 80px 15px;
+	color: white;
 }
 
 #content h2 {
@@ -42,12 +44,21 @@ html,body{
 	border-radius: 10px;
 }
 
+#pic img{
+	margin: 30px;
+	border: 5px solid lightgrey;
+	border-radius: 10px;
+	width: 75%;
+	height: 300px;
+}
+
 }
 #links{
 	margin: 15px;
 }
 #links h2{
 	margin-left: : 15px;
+	color: white;
 }
 
 #links ul{
@@ -68,17 +79,61 @@ html,body{
 	font-size: 20px;
 }
 
-#links ul li:hover{
+#links ul li{
 	background: red; /* For browsers that do not support gradients */    
     background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, blue , lightgrey); /* Standard syntax (must be last) */
+    background: linear-gradient(to right, lightgrey , blue); /* Standard syntax (must be last) */
 	color:#4CAF50;
 	text-shadow: 2px 2px 4px;
+	border: 5px groove lightgrey;
 }
 
+#links ul li a:link{
+	text-decoration: none;
+	font-size: 20px;
+}
 
+#links ul li a:hover{
+	/*background-color: green;
+	color: white;
+	display: inline-block;
+	padding: 10px 10px;
+	border-radius: 15px;
+	box-shadow: 4px 4px;*/
+
+	color: #FFFFFF;
+    background-color: #73AD21;
+    background-color: #4CAF50;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding: 10px 10px;
+	border-radius: 15px;
+}
+
+#links ul li a:active{
+	color:#ff4dc4;
+}
+
+.full{
+	margin: 15px;
+	color: white;
+}
+
+.full h4 a{
+	display: inline-block;
+	border: 5px groove white;
+	padding: 5px;
+	text-decoration: none;
+	background-color:  #4CAF50;
+	color: white;
+	border-radius: 10px;
+}
+
+.full h4 a:hover{
+	color: #4CAF50;
+	background-color: white;
+}
 
 
 
@@ -89,10 +144,11 @@ html,body{
 }
 
 #footer{
+	margin: 0px;
 	text-align: center;
 	background-color:  #afc0af;
 	color:white;
 	padding: 16px 5px 15px 5px;
 	border: 2px solid lightgrey;
-	border-radius: 29px;
+	border-radius: 2px;
 } 

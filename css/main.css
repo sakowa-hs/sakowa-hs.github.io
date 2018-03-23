@@ -1,5 +1,5 @@
 html,body{
-	font-family: Arial,sans-serif;
+	font-family: arial,sans-sirif;
 	margin: 0px;
 	background: lightgrey; /* For browsers that do not support gradients */    
     background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
@@ -92,7 +92,7 @@ html,body{
 
 #links ul li a:link{
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 #links ul li a:hover{
@@ -141,6 +141,11 @@ html,body{
 	background-color: #4CAF50;
 	margin: 15px;
 	border-radius: 15px;
+}
+
+#frame{
+	display: inline;
+	color: white;
 }
 
 #footer{

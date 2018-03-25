@@ -92,6 +92,7 @@ html,body{
 #links ul li a:link{
 	text-decoration: none;
 	font-size: 18px;
+	color:white;
 }
 
 #links ul li a:hover{
@@ -112,6 +113,8 @@ html,body{
 
 #links ul li a:active{
 	color:#ff4dc4;
+	 padding: 10px 10px;
+	border-radius: 15px;
 }
 
 .full{
